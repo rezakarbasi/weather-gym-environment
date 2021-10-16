@@ -12,7 +12,7 @@ class FarmingEnv(gym.Env):
         self.reset()
 
     def step(self, action:str):
-        data = df.df.iloc[self.index]
+        data = self.df.iloc[self.index]
         self.index += 1
 
         reward = 0.0
