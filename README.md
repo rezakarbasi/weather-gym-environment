@@ -8,6 +8,6 @@ then i've made the gym like [this tutorial](https://medium.com/@apoddar573/makin
 
 
 to install the package from terminal :
-. open terminal in this directory
-. cd gym_farming
-. pip install -e .
+* open terminal in this directory
+* cd gym_farming
+* pip install -e .
